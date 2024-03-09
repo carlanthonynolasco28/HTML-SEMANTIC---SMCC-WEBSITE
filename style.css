@@ -1,0 +1,212 @@
+body {
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(smccnasipit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.a :hover {
+  background-color: #050045;
+}
+.image-card-container {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #050045;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  color: #ffc107;
+  background-color: #050045;
+  border: 2px solid #ffc107;
+  z-index: 99;
+  transition: bottom 0.5s ease;
+}
+
+.nav-item{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#btn-back-to-top:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.image-gallery {
+  width: 100%;
+  height: auto;
+}
+
+.image-card-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom, transparent, #050045, black);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate&display=swap");
+
+@font-face {
+  font-family: old-english-text;
+  src: url(old-english-text-mt.TTF);
+}
+
+.old-english-text {
+  font-family: "old-english-text";
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.pirata-one {
+  font-family: "Pirata One", cursive;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.syncopate {
+  font-family: "Syncopate", sans-serif;
+}
+
+.xx-small {
+  font-size: xx-small;
+}
+
+.x-small {
+  font-size: x-small;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.small {
+  font-size: small;
+}
+
+.large {
+  font-size: large;
+}
+
+.larger {
+  font-size: larger;
+}
+
+.x-large {
+  font-size: x-large;
+}
+
+.xx-large {
+  font-size: xx-large;
+}
+
+.indent-50 {
+  text-indent: 50px;
+  line-height: 20px;
+}
+
+.line-height-15 {
+  line-height: 15px;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.line-height-45 {
+  line-height: 45px;
+}
+
+.justify {
+  text-align: justify;
+}
+.bg-darkblue {
+  background-color: #050045;
+}
+
+.bg-orange {
+  background-color: #ffc107;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.fg-orange {
+  color: #ffc107;
+}
+
+.fg-darkblue {
+  color: #050045;
+}
+
+.divider {
+  border-top: 2px solid grey;
+}
+
+.divider-orange {
+  border-top: 5px solid #ffc107;
+}
+
+.divider-orange-vertical-left {
+  border-left: 5px solid #ffc107;
+}
+
+.divider-orange-vertical-right {
+  border-right: 5px solid #ffc107;
+}
+
+.divider-darkblue {
+  border-top: 5px solid #050045;
+}
+
+.radial-gradient-orange {
+  background-image: radial-gradient(circle, #ffc107, transparent);
+}
+
+.radial-gradient-dark {
+  background-image: radial-gradient(circle, black, transparent);
+}
+
+.zoom {
+  transition: transform 0.3s ease;
+  /* box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18); */
+  border-radius: 0;
+  border: 0;
+  /* margin-bottom: 1.5em; */
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
